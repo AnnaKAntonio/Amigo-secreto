@@ -49,7 +49,7 @@ Contribuições são bem-vindas! Se você tiver sugestões de melhorias ou corre
 
 ## Autor
 
-[Seu Nome]
+[Anna antonio]
 
 ## Licença
 
