@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #e8f5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    height: 300px; /* Ajuste a altura conforme necessário */
+    background-image: url('Alura.png'); /* Substitua pelo nome da sua imagem */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Cor do texto para contraste */
+    text-align: center;
+}
+
+.header img {
+    display: none; /* Remove a imagem interna */
+}
+
+.form-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.input-group button {
+    border-left: 1px solid #ddd;
+    border-radius: 0;
+}
+
+#resultado {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#lista-nomes {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#lista-nomes li {
+    background-color: #e6f7ff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
